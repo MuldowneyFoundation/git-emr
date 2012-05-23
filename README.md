@@ -1,4 +1,4 @@
-GitEMR
-======
+# GitEMR
 
-The stupid electronic medical record tracker
+Formal article pertaining to Git version control system applied to tracking
+electronic medical records.
