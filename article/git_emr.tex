@@ -27,6 +27,7 @@
 % For tracking purposes - this is V3.1SP - APRIL 2009
 
 \documentclass{acm_proc_article-sp}
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -110,8 +111,8 @@ of managing \textit{electronic medical records} is growing.
 While \textit{distributed database systems} have been successfully utilized in leisure 
 oriented applications they generally do not guarantee data integrity and in turn are 
 not suited for \textit{electronic medical records}.  
-\textit{Distributed version control} is designed for collaborative modification of electronic
-data files while maintaingin data ingegrity and may server an efficient and effective method 
+\textit{Distributed version control} systems are designed for collaborative modification of electronic
+data while maintaining data integrity and may serve an efficient and effective method 
 of managing \textit{electronic medical records}.
 \end{abstract}
 
@@ -130,22 +131,25 @@ Current applications managing the data of EMRs have demonstrated the benefits
 of storing medical records electronically and offer insight into the 
 applicability of distributed version control to EMRs.
 
-More mature methods for managing \textit{EMRs} are neccicary for the continued advancement of
-medical applications.  Currently employed methods limit medical data analysis, hinder
-collaborative modification, and are unnessarily costly.
+More mature methods for managing \textit{EMRs} are necessary for the continued advancement of
+medical software applications.  Currently employed methods limit the applicability of medical 
+data analysis, hinder collaborative modification, and require unnecessary costs.
 
-Features offered by Git version control are suiting for the management of \textit{EMRs} and 
-offers a well established base for building an efficient and effective system of managing
-electronic medical records.
+Features offered by the Git version control system are suiting for the management of \textit{EMRs}.
+Throughout this paper the applicability of distributed version control will be discussed and specifically,
+a implementation  proposal for GitEMR will be defined.
 
 \subsection{Audience}
 Medical professionals, and in particular those tasked with aggregation and analysis of medical data.
 
 \subsection{Related Work}
-OpenEMR
+
+\href{http://www.open-emr.org/}{OpenEMR}
 
 
 \subsection{Structure of this Document}
+The article begins by outlining related topics generally not familiar to medical professionals.
+
 
 \section{Database Systems}
 
@@ -186,10 +190,11 @@ The accessibility of the
 
 
 \section{Random stuff}
+
 EMRs generally maintain extremely sensitive data.  Accuracy of all data
 maintained by an EMR potentially determines the survival of the individual a record 
 reflects.  Access to data maintained by an EMR is generally restricted, only accessible 
-to those authorized the indivual a reflects.
+to those authorized the individual a reflects.
 
 Applications are generally costly in terms of initial acquisition, continued maintenance, 
 and accessibility.
