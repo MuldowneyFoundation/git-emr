@@ -1,15 +1,12 @@
 {
-  "name": "Presentation",
-  "description": "Example Presentation",
-  "author": "Foo Bar",
+  "name": "Git-EMR",
+  "description": "A Distributed Version Control System for Electronic Medical Records",
+  "author": "Kurt Robert Rudolph",
   "templates" : {
       "special" : "special.tpl"
   },
   "pause_msg": "Paused !!!",
   "sections": [
-    {"section":"one"},
-    {"section":"two"},
-    {"section":"three"},
-    {"section":"four"}
+    {"section":"git"}
   ]
 }
