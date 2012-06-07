@@ -7,6 +7,7 @@
   },
   "pause_msg": "Paused !!!",
   "sections": [
-    {"section":"git"}
+    {"section":"introduction", 
+    "section":"git"}
   ]
 }
