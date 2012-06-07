@@ -9,9 +9,8 @@
 
 temp/*
 
-
-# vim swap files
+# Vim
 *.swp
 
-#showoff
+# Showoff
 static/*
