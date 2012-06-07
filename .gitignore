@@ -12,3 +12,6 @@ temp/*
 
 # vim swap files
 *.swp
+
+#showoff
+static/*
